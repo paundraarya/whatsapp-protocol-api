@@ -1,0 +1,39 @@
+import { Guides } from '@/components/Guides'
+import { Resources } from '@/components/Resources'
+import { HeroPattern } from '@/components/HeroPattern'
+
+export const description =
+  'Learn everything there is to know about the Protocol API and integrate Protocol into your product.'
+
+export const sections = [
+  { title: 'Guides', id: 'guides' },
+  { title: 'Resources', id: 'resources' },
+]
+
+<HeroPattern />
+
+# Arya's WhatsApp API Documentation
+
+Gunakan API Protokol untuk mengakses kontak, percakapan, pesan grup, dan banyak lagi serta mengintegrasikan produk Anda dengan lancar ke dalam alur kerja lusinan pengguna setia Protokol. {{ className: 'lead' }}
+
+<div className="not-prose mb-16 mt-6 flex gap-3">
+  <Button href="/quickstart" arrow="right" children="Quickstart" />
+  <Button href="/sdks" variant="outline" children="Explore SDKs" />
+</div>
+
+## Getting started {{ anchor: false }}
+
+Untuk memulai, buat aplikasi baru di [pengaturan pengembang](#), lalu baca tentang cara membuat permintaan sumber daya yang perlu Anda akses menggunakan API HTTP kami atau SDK klien khusus. Ketika integrasi Anda siap untuk ditayangkan, publikasikan ke [direktori integrasi](#) kami untuk menjangkau komunitas Protokol. {{ className: 'lead' }}
+
+<div className="not-prose">
+  <Button
+    href="/sdks"
+    variant="text"
+    arrow="right"
+    children="Get your API key"
+  />
+</div>
+
+<Guides />
+
+<Resources />
